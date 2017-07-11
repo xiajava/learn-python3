@@ -7,3 +7,5 @@
 [来推荐点学习python的资料(更新：各种编程工具）](http://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1289256)
 
 [实验楼/学习路径/Python研发工程师](https://www.shiyanlou.com/paths/python)
+
+[实验楼/Python快速教程](https://www.shiyanlou.com/courses/214) [博客园Vamei](http://www.cnblogs.com/vamei/)
