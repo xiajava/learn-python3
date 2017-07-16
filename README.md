@@ -8,6 +8,10 @@
 
 [实验楼/Python快速教程](https://www.shiyanlou.com/courses/214) [博客园Vamei](http://www.cnblogs.com/vamei/)
 
-[Python 3 教程|菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
+[Python 3 教程 | 菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
 
 [codecademy Python](https://www.codecademy.com/learn/python)
+
+[现代魔法学院 Python程序设计](http://www.nowamagic.net/academy/category/13)
+
+[Python语言（MIT公开课）](http://study.163.com/plan/planIntroduction.htm?id=1222079&from=study&edusave=1)
