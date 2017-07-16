@@ -9,3 +9,5 @@
 [实验楼/Python快速教程](https://www.shiyanlou.com/courses/214) [博客园Vamei](http://www.cnblogs.com/vamei/)
 
 [Python 3 教程|菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
+
+[codecademy Python](https://www.codecademy.com/learn/python)
