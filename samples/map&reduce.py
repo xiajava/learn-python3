@@ -48,6 +48,6 @@ def str2float(s):
 x1 = '123456789'
 x2 = '123456.789'
 x3 = '-123.456789'
-print('str2float(\'', x1, '\') =', str2float(x1))  # str2float(' 123456789 ') = 123456789.0
-print('str2float(\'', x2, '\') =', str2float(x2))  # str2float(' 123456.789 ') = 123456.789
-print('str2float(\'', x3, '\') =', str2float(x3))  # str2float(' -123.456789 ') = -123.456789
+print('%s%s%s' % ('str2float(\'', x1, '\') ='), str2float(x1))  # str2float('123456789') = 123456789.0
+print('%s%s%s' % ('str2float(\'', x2, '\') ='), str2float(x2))  # str2float('123456.789') = 123456.789
+print('%s%s%s' % ('str2float(\'', x3, '\') ='), str2float(x3))  # str2float('-123.456789') = -123.456789
