@@ -43,3 +43,38 @@ add1 = 'someone@gmail.com'
 add2 = 'bill.gates@microsoft.com'
 is_email(add1)
 is_email(add2)
+
+
+# 验证并提取出带名字的Email地址 <Tom Paris> tom@voyager.org
+def is_email2(txt):
+    s_space = re.split(' ', txt)
+    is_email(s_space[-1])
+
+    s_name = re.split(s_space[-1], txt)
+    print('name:', s_name[0])
+
+
+add4 = '<Tom Paris> tom@voyager.org'
+is_email2(add4)
+
+'''
+------------------------
+email add: someone@gmail.com
+s_at: ['someone', 'gmail.com']
+s_dot: ['someone@gmail', 'com']
+username ok
+ok
+------------------------
+email add: bill.gates@microsoft.com
+s_at: ['bill.gates', 'microsoft.com']
+s_dot: ['bill', 'gates@microsoft', 'com']
+username ok
+ok
+------------------------
+email add: tom@voyager.org
+s_at: ['tom', 'voyager.org']
+s_dot: ['tom@voyager', 'org']
+username ok
+ok
+name: <Tom Paris> 
+'''
