@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import math
 
 
 def quadratic(a, b, c):
+    if a == 0:
+        raise TypeError('a is zero', a)
     for i in [a, b, c]:
         if not isinstance(i, (int, float)):
             raise TypeError('bad operand type', i)
@@ -19,6 +18,7 @@ def quadratic(a, b, c):
         x1 = (-b + math.sqrt(delta)) / (2 * a)
         x2 = (-b - math.sqrt(delta)) / (2 * a)
         return x1, x2
+
 
 print(quadratic(1, 1, 1))  # => no real roots
 print(quadratic(1, 4, 4))  # => two equal roots: -2.00
