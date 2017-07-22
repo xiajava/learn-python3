@@ -9,7 +9,7 @@ def to_timestamp(dt_str, tz_str):
     # dt_str转换为datetime
     dt = datetime.strptime(dt_str, '%Y-%m-%d %H:%M:%S')
     # tz_str转换为timezone
-    m = re.match(r'^(UTC)([+-])([0-9]|0[0-9]|1[0-2])\:(00)$', tz_str)
+    m = re.match(r'^(UTC)([+-]?)([0-9]|0[0-9]|1[0-2])\:(00)$', tz_str)
     sign = -1 if m.group(2) is '-' else 1
     tz = sign * int(m.group(3))
     # 本地时间转换为UTC时间
