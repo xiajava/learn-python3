@@ -12,15 +12,8 @@ def is_bmp(d):
     try:
         with open(d, 'rb') as f:
             info = struct.unpack('<ccIIIIIIHH', f.read(30))
-        type = info[0:2]
-        # size = info[2]
-        Reserved_bit = info[3]
-        # move = info[4]
-        # Header = info[5]
-        height = info[6]
-        high = info[7]
-        one = info[8]
-        colors = info[9]
+        # size, move, Header = info[2], info[4], info[5]
+        type, Reserved_bit, height, high, one, colors = info[0:2], info[3], info[6], info[7], info[8], info[9]
         print('bmp_info:', info)
         if Reserved_bit == 0 and one == 1 and (type == (b'B', b'M') or type == (b'B', b'A')):
             if type == (b'B', b'M'):
