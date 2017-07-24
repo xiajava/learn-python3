@@ -18,7 +18,7 @@ def find(dir_path, key, root):
 
 def findr(dir_path, key):
     root = dir_path
-    find(dir_path, key, root)
+    return find(dir_path, key, root)
 
 
 d = input('the directory path: ')
