@@ -16,8 +16,10 @@
 
 [Python语言（MIT公开课）](http://study.163.com/plan/planIntroduction.htm?id=1222079&from=study&edusave=1)
 
-# [free-programming-books: Python](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md#python)
+[X分钟速成Y 其中 Y=python3](https://learnxinyminutes.com/docs/zh-cn/python3-cn/)
 
+
+[free-programming-books: Python](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md#python)
 * [Django book 2.0](http://djangobook.py3k.cn/2.0/)
 * [Python 3 文档(简体中文) 3.2.2 documentation](http://docspy3zh.readthedocs.org/en/latest/)
 * [Python 中文学习大本营](http://www.pythondoc.com)
