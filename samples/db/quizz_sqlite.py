@@ -27,6 +27,7 @@ def get_score_in(low, high):
         cursor = coon.cursor()
         cursor.execute('select name from user where score between ? and ? order by score', (low, high))
         values = cursor.fetchall()
+        # 用列表推导式可以简化映射和过滤。列表推导式的返回值是另一个列表。
         return [tpl[0] for tpl in values]
     finally:
         cursor.close()
