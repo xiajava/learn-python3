@@ -1,4 +1,24 @@
-# https://learnxinyminutes.com/docs/zh-cn/python3-cn/
+---
+language: python3
+contributors:
+    - ["Louie Dinh", "http://pythonpracticeprojects.com"]
+    - ["Steven Basart", "http://github.com/xksteven"]
+    - ["Andre Polykanine", "https://github.com/Oire"]
+translators:
+    - ["Geoff Liu", "http://geoffliu.me"]
+filename: learnpython3-cn.py
+lang: zh-cn
+---
+
+Python是由吉多·范罗苏姆(Guido Van Rossum)在90年代早期设计。它是如今最常用的编程
+语言之一。它的语法简洁且优美，几乎就是可执行的伪代码。
+
+欢迎大家斧正。英文版原作Louie Dinh [@louiedinh](http://twitter.com/louiedinh)
+或着Email louiedinh [at] [谷歌的信箱服务]。中文翻译Geoff Liu。
+
+注意：这篇教程是特别为Python3写的。如果你想学旧版Python2，我们特别有另一篇教程。
+
+```python
 
 # 用井字符开头的是单行注释
 
@@ -586,4 +606,24 @@ def say(say_please=False):
 
 print(say())  # Can you buy me a beer?
 print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
+```
+
+## 想继续学吗？
+
+### 线上免费材料（英文）
+
+* [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
+* [Dive Into Python](http://www.diveintopython.net/)
+* [Ideas for Python Projects](http://pythonpracticeprojects.com)
+
+* [The Official Docs](http://docs.python.org/3/)
+* [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
+* [Python Module of the Week](http://pymotw.com/3/)
+* [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
+
+### 书籍（也是英文）
+
+* [Programming Python](http://www.amazon.com/gp/product/0596158106/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596158106&linkCode=as2&tag=homebits04-20)
+* [Dive Into Python](http://www.amazon.com/gp/product/1441413022/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1441413022&linkCode=as2&tag=homebits04-20)
+* [Python Essential Reference](http://www.amazon.com/gp/product/0672329786/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0672329786&linkCode=as2&tag=homebits04-20)
 
